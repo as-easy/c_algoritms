@@ -10,7 +10,7 @@
 #include <conio.h>
 
 int SystemRandom();
-int PGSCH(int x, int a, int b, int m);
+int GPSCH(int x, int a, int b, int m);
 
 int main(int argc, char *argv[])
 {
@@ -22,10 +22,10 @@ int main(int argc, char *argv[])
 	for(int i = 0; i <= 100; i++)
 		printf(" %d", SystemRandom());
 
-	printf("\n\nPGSCH function: \n");
+	printf("\n\nGPSCH function: \n");
 	for(int i = 0; i <= 100; i++)	
 	{
-		x = PGSCH(x, 4, 1, 100);
+		x = GPSCH(x, 4, 1, 100);
 		printf("%d ", x);
 	}
 
@@ -39,7 +39,7 @@ int SystemRandom()
 		return rand() % 100;
 	}
 
-int PGSCH(int x, int a, int b, int m)
+int GPSCH(int x, int a, int b, int m)
 	{
 		return (a*x + b)%m;
 	}
