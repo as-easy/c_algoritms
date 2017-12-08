@@ -11,9 +11,9 @@
 int main(int argc, char *argv[])
 {
 	int N = 0;		//Натуральное число N
-	int number;		//Далее - число в счетчике от 2 до N
-	int sum;		//Сумма чисел
-	int number2;	//Число в квадрате
+	int number;		//Число в счетчике от 2 до N
+	int sum;		//Сумма чисел number
+	int number2;	//Число number в квадрате
 	int numbertemp;	//Последние цифры number2
 
 	printf("Enter N symbols:");
