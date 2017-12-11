@@ -6,27 +6,44 @@
 #include <stdio.h>
 #include <conio.h>
 
-
+int Recursia(int K_IN, int K_OUT);
+int count = 0;
 int main(int argc, char *argv[])
 {
-	int N, K;
-	int count = 0;
+	int K_IN, K_OUT;	
 
-	printf("Enter N: ");
-	scanf("%d", &N);
-	printf("Enter K: ");
-	scanf("%d", &K);
+	printf("Enter K_IN: ");
+	scanf("%d", &K_IN);
+	printf("Enter K_OUT: ");
+	scanf("%d", &K_OUT);
 
-	while (N >= K)
-	{
-		count++;
-		N -= K;
-	}
-	
-	printf("Chastnoe: %d\n", count);
-	printf("Ostatok: %d", N);
+	Recursia(K_IN,K_OUT);
+	printf("count = %d", count);
 
 	printf("\n\nPress Any Key to Continue");	
 	getch();	
 	return 0;
 }
+
+int Recursia(int K_IN, int K_OUT)
+{
+	if(K_IN <= (K_OUT/2))
+	{		
+		Recursia(K_IN*2, K_OUT);		
+	}
+
+	if(K_IN == K_OUT)
+	{
+		count++;
+		return 0;
+	}
+
+	if(K_IN > K_OUT)
+	{
+		return 0;
+	}	
+
+	Recursia(++K_IN, K_OUT);
+}
+
+
