@@ -1,0 +1,6 @@
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\bin\Debug\Cat.exe.config
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\bin\Debug\Cat.exe
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\bin\Debug\Cat.pdb
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\obj\Debug\Cat.csprojResolveAssemblyReference.cache
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\obj\Debug\Cat.exe
+C:\Users\aseasy\Desktop\c_lesson\5_lesson\Cat\obj\Debug\Cat.pdb
