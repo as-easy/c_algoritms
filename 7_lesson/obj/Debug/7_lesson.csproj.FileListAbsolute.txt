@@ -1,0 +1,6 @@
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\bin\Debug\7_lesson.exe.config
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\bin\Debug\7_lesson.exe
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\bin\Debug\7_lesson.pdb
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\obj\Debug\7_lesson.csprojResolveAssemblyReference.cache
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\obj\Debug\7_lesson.exe
+C:\Users\aseasy\Desktop\c_lesson\7_lesson\obj\Debug\7_lesson.pdb
