@@ -19,8 +19,7 @@ namespace _8_lesson
 
             List<int> arr_list = new List<int>();
             char ch;
-            string temp = "";
-            int n = 0;
+            string temp = "";            
 
             while (!sr_masSm.EndOfStream)
             {

@@ -11,18 +11,22 @@ namespace _8_lesson
         static void Main(string[] args)
         {
             AddArray aarr = new AddArray();
-            int[] arr_int = aarr.AddArray2("AA100.txt");
+            ConsoleDisplay cd = new ConsoleDisplay();
+            Sort qs = new Sort();
+            int[] arr_int;
 
-            QuickSort qs = new QuickSort();
-            qs.MetodQuickSort(ref arr_int, 0, 99);
+            arr_int = new int[16] { 2, 1, 0, 3, 4, 7, 6, 5, 2, 1, 0, 3, 4, 7, 6, 5 };            
+           // arr_int = aarr.AddArray2("AA100.txt");           
+            qs.QuickSort(ref arr_int, 0, arr_int.Length - 1);
+            cd.OutputOnDisplay(arr_int);
+            Console.WriteLine();
 
-            for (int i = 0; i < arr_int.Length; i++)
-            {
-                if (i % 5 == 0)
-                    Console.WriteLine();
 
-                Console.Write($"{arr_int[i]}\t");
-            }
+            arr_int = aarr.AddArray2("AA100.txt");
+            qs.MergeSort(ref arr_int, 0, arr_int.Length - 1);
+            cd.OutputOnDisplay(arr_int);
+
+
         }
     }
 }
